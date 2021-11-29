@@ -1,0 +1,675 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a57f08ee2b4694da35eb8e2edd159f, type: 3}
+  m_Name: Player Stats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Kira.ResourceType, Assembly-CSharp],[Kira.EntityResource,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Kira.ResourceType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 2|Kira.EntityResource, Assembly-CSharp
+    - Name: resourceType
+      Entry: 3
+      Data: 4
+    - Name: currentValue
+      Entry: 3
+      Data: 100
+    - Name: baseAmount
+      Entry: 3
+      Data: 100
+    - Name: resourceMods
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Kira.ResourceModifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 4|Kira.EntityResource, Assembly-CSharp
+    - Name: resourceType
+      Entry: 3
+      Data: 0
+    - Name: currentValue
+      Entry: 3
+      Data: 100
+    - Name: baseAmount
+      Entry: 3
+      Data: 100
+    - Name: resourceMods
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Kira.ResourceModifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnValueChanged
+      Entry: 7
+      Data: 6|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: invocationList
+      Entry: 7
+      Data: 7|System.Delegate[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 8|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 7
+      Data: 9|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: Kira.ResourceBar, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: signature
+      Entry: 7
+      Data: 11|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 13|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 15|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 17|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 19|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 21|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 1
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 23|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 24|Kira.EntityResource, Assembly-CSharp
+    - Name: resourceType
+      Entry: 3
+      Data: 3
+    - Name: currentValue
+      Entry: 3
+      Data: 95
+    - Name: baseAmount
+      Entry: 3
+      Data: 100
+    - Name: resourceMods
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[Kira.ResourceModifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnValueChanged
+      Entry: 7
+      Data: 26|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: invocationList
+      Entry: 7
+      Data: 27|System.Delegate[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 28|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 29|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 31|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 33|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 35|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 37|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 2
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 39|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Kira.EntityResource+OnValueChangedEvent, Assembly-CSharp
+    - Name: target
+      Entry: 10
+      Data: 3
+    - Name: declaringType
+      Entry: 9
+      Data: 9
+    - Name: methodName
+      Entry: 1
+      Data: UpdateResource
+    - Name: delegateType
+      Entry: 9
+      Data: 10
+    - Name: signature
+      Entry: 7
+      Data: 41|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 42|Kira.EntityResource, Assembly-CSharp
+    - Name: resourceType
+      Entry: 3
+      Data: 5
+    - Name: currentValue
+      Entry: 3
+      Data: 300
+    - Name: baseAmount
+      Entry: 3
+      Data: 300
+    - Name: resourceMods
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[Kira.ResourceModifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
